@@ -1,0 +1,45 @@
+:root{
+    --main-color-AzulDark: #041C32;
+    --main-color-Verde: #04293A;
+    --main-color-AzulLigth: #064663;
+    --main-color-Orange: #ECB365;
+}
+
+body{
+    background-color: var(--main-color-AzulLigth);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+}
+
+#caja_1, #caja_2, #caja_3{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    width: 300px;
+    height: 200px;s
+}
+#caja_1{
+    background-color: var(--main-color-Verde);
+    color: azure;
+}
+
+#caja_2{
+    background-color: var(--main-color-AzulDark);
+    color: azure;
+}
+
+#caja_3{
+    background-color: var(--main-color-Orange);
+    color: azure;
+}
